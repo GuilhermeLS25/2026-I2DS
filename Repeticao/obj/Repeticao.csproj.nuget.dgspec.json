@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/spskills/Desktop/2026-I2DS/Aula-03/Revisao/Repeticao/Repeticao.csproj": {}
+    "/Users/spskills/Desktop/2026-I2DS/Repeticao/Repeticao.csproj": {}
   },
   "projects": {
-    "/Users/spskills/Desktop/2026-I2DS/Aula-03/Revisao/Repeticao/Repeticao.csproj": {
+    "/Users/spskills/Desktop/2026-I2DS/Repeticao/Repeticao.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/spskills/Desktop/2026-I2DS/Aula-03/Revisao/Repeticao/Repeticao.csproj",
+        "projectUniqueName": "/Users/spskills/Desktop/2026-I2DS/Repeticao/Repeticao.csproj",
         "projectName": "Repeticao",
-        "projectPath": "/Users/spskills/Desktop/2026-I2DS/Aula-03/Revisao/Repeticao/Repeticao.csproj",
+        "projectPath": "/Users/spskills/Desktop/2026-I2DS/Repeticao/Repeticao.csproj",
         "packagesPath": "/Users/spskills/.nuget/packages/",
-        "outputPath": "/Users/spskills/Desktop/2026-I2DS/Aula-03/Revisao/Repeticao/obj/",
+        "outputPath": "/Users/spskills/Desktop/2026-I2DS/Repeticao/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/spskills/.nuget/NuGet/NuGet.Config"
