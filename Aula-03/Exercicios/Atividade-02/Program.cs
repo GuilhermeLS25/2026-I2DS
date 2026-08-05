@@ -8,9 +8,9 @@
 
         Console.WriteLine("===========================================");
         Console.Write("Número 1: ");
-        num1 = double.Parse(Console.ReadLine());       
+        num1 = double.Parse(Console.ReadLine());
         Console.Write("Número 2: ");
-        num2 = double.Parse(Console.ReadLine());       
+        num2 = double.Parse(Console.ReadLine());
 
         Console.WriteLine("===========================================");
         Console.WriteLine("1 - Soma");
@@ -22,7 +22,7 @@
 
         Console.Write("Opção: ");
         int opcao = int.Parse(Console.ReadLine());
-        
+
         switch (opcao)
         {
             case 1:
