@@ -9,16 +9,16 @@
 
         Console.Write("Valor a ser Sacado: ");
         int valor = int.Parse(Console.ReadLine());
-        
+
         Console.WriteLine("-------------------------------------------");
         Console.WriteLine("");
-        
+
         int notas100 = valor / 100;
         valor %= 100;
 
         int notas50 = valor / 50;
         valor %= 50;
-    
+
         int notas20 = valor / 20;
         valor %= 20;
 
