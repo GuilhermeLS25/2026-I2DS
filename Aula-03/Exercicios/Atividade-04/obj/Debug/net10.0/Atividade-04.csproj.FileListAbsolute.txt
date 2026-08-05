@@ -1,0 +1,15 @@
+/Users/spskills/Desktop/2026-I2DS/Aula-03/Exercicios/Atividade-04/bin/Debug/net10.0/Atividade-04
+/Users/spskills/Desktop/2026-I2DS/Aula-03/Exercicios/Atividade-04/bin/Debug/net10.0/Atividade-04.deps.json
+/Users/spskills/Desktop/2026-I2DS/Aula-03/Exercicios/Atividade-04/bin/Debug/net10.0/Atividade-04.runtimeconfig.json
+/Users/spskills/Desktop/2026-I2DS/Aula-03/Exercicios/Atividade-04/bin/Debug/net10.0/Atividade-04.dll
+/Users/spskills/Desktop/2026-I2DS/Aula-03/Exercicios/Atividade-04/bin/Debug/net10.0/Atividade-04.pdb
+/Users/spskills/Desktop/2026-I2DS/Aula-03/Exercicios/Atividade-04/obj/Debug/net10.0/Atividade-04.GeneratedMSBuildEditorConfig.editorconfig
+/Users/spskills/Desktop/2026-I2DS/Aula-03/Exercicios/Atividade-04/obj/Debug/net10.0/Atividade-04.AssemblyInfoInputs.cache
+/Users/spskills/Desktop/2026-I2DS/Aula-03/Exercicios/Atividade-04/obj/Debug/net10.0/Atividade-04.AssemblyInfo.cs
+/Users/spskills/Desktop/2026-I2DS/Aula-03/Exercicios/Atividade-04/obj/Debug/net10.0/Atividade-04.csproj.CoreCompileInputs.cache
+/Users/spskills/Desktop/2026-I2DS/Aula-03/Exercicios/Atividade-04/obj/Debug/net10.0/Atividade-04.sourcelink.json
+/Users/spskills/Desktop/2026-I2DS/Aula-03/Exercicios/Atividade-04/obj/Debug/net10.0/Atividade-04.dll
+/Users/spskills/Desktop/2026-I2DS/Aula-03/Exercicios/Atividade-04/obj/Debug/net10.0/refint/Atividade-04.dll
+/Users/spskills/Desktop/2026-I2DS/Aula-03/Exercicios/Atividade-04/obj/Debug/net10.0/Atividade-04.pdb
+/Users/spskills/Desktop/2026-I2DS/Aula-03/Exercicios/Atividade-04/obj/Debug/net10.0/Atividade-04.genruntimeconfig.cache
+/Users/spskills/Desktop/2026-I2DS/Aula-03/Exercicios/Atividade-04/obj/Debug/net10.0/ref/Atividade-04.dll
