@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "c:\\Users\\SP-Skills\\Documents\\2026-I2DS\\Aula-05\\Exercicio-05\\Pessoa\\Pessoa.csproj": {}
+    "C:\\Users\\SP-Skills\\Documents\\2026-I2DS\\Aula-05\\Exercicio-05\\Pessoa\\Pessoa.csproj": {}
   },
   "projects": {
-    "c:\\Users\\SP-Skills\\Documents\\2026-I2DS\\Aula-05\\Exercicio-05\\Pessoa\\Pessoa.csproj": {
+    "C:\\Users\\SP-Skills\\Documents\\2026-I2DS\\Aula-05\\Exercicio-05\\Pessoa\\Pessoa.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\SP-Skills\\Documents\\2026-I2DS\\Aula-05\\Exercicio-05\\Pessoa\\Pessoa.csproj",
+        "projectUniqueName": "C:\\Users\\SP-Skills\\Documents\\2026-I2DS\\Aula-05\\Exercicio-05\\Pessoa\\Pessoa.csproj",
         "projectName": "Pessoa",
-        "projectPath": "c:\\Users\\SP-Skills\\Documents\\2026-I2DS\\Aula-05\\Exercicio-05\\Pessoa\\Pessoa.csproj",
+        "projectPath": "C:\\Users\\SP-Skills\\Documents\\2026-I2DS\\Aula-05\\Exercicio-05\\Pessoa\\Pessoa.csproj",
         "packagesPath": "D:\\AI\\Cache\\NuGet\\Packages",
-        "outputPath": "c:\\Users\\SP-Skills\\Documents\\2026-I2DS\\Aula-05\\Exercicio-05\\Pessoa\\obj\\",
+        "outputPath": "C:\\Users\\SP-Skills\\Documents\\2026-I2DS\\Aula-05\\Exercicio-05\\Pessoa\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
