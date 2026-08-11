@@ -8,7 +8,7 @@
     "net10.0": []
   },
   "packageFolders": {
-    "C:\\Users\\SP-Skills\\.nuget\\packages\\": {},
+    "D:\\AI\\Cache\\NuGet\\Packages": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
@@ -17,7 +17,7 @@
       "projectUniqueName": "C:\\Users\\SP-Skills\\Documents\\2026-I2DS\\Aula-03\\Exercicios\\Exercicio08\\Exercicio08.csproj",
       "projectName": "Exercicio08",
       "projectPath": "C:\\Users\\SP-Skills\\Documents\\2026-I2DS\\Aula-03\\Exercicios\\Exercicio08\\Exercicio08.csproj",
-      "packagesPath": "C:\\Users\\SP-Skills\\.nuget\\packages\\",
+      "packagesPath": "D:\\AI\\Cache\\NuGet\\Packages",
       "outputPath": "C:\\Users\\SP-Skills\\Documents\\2026-I2DS\\Aula-03\\Exercicios\\Exercicio08\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
