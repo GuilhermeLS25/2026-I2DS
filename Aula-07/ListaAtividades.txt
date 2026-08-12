@@ -1,0 +1,439 @@
+# Lista de Exercícios  — Collections e LINQ
+
+# Exercícios — Collections e LINQ
+
+**Disciplina:** Programação Web Back-End
+
+**Linguagem:** C#
+
+**Tipo:** Aplicativo Console
+
+**Conteúdos:** Collections, Lambda Expressions e LINQ
+
+**Níveis:** Fácil, Médio e 1 exercício Difícil
+
+---
+
+# PARTE 1 — ENUNCIADOS
+
+## 🟢 Exercício 01 — Cadastro de Frutas
+
+Crie um aplicativo Console que utilize uma `List<string>` para armazenar nomes de frutas.
+
+O programa deve:
+
+- Adicionar inicialmente 5 frutas.
+- Exibir todas as frutas cadastradas.
+- Solicitar ao usuário uma nova fruta.
+- Adicionar a nova fruta à lista.
+- Exibir novamente a lista atualizada.
+
+**Conceitos:** `List`, `Add`, `foreach`.
+
+---
+
+## 🟢 Exercício 02 — Cadastro de Alunos
+
+Crie uma classe `Aluno` com as propriedades:
+
+- `Nome`
+- `Idade`
+
+Cadastre 5 alunos utilizando uma `List<Aluno>`.
+
+O programa deve:
+
+1. Exibir todos os alunos.
+2. Permitir alterar a idade de um aluno.
+3. Permitir remover um aluno pelo nome.
+4. Exibir a lista final.
+
+**Conceitos:** `List<T>`, objetos, pesquisa, alteração e remoção.
+
+---
+
+## 🟢 Exercício 03 — Agenda Telefônica
+
+Crie uma agenda telefônica utilizando:
+
+```csharp
+Dictionary<string, string>
+```
+
+Onde:
+
+- A chave representa o nome.
+- O valor representa o telefone.
+
+O programa deve permitir:
+
+1. Cadastrar um contato.
+2. Pesquisar um contato pelo nome.
+3. Alterar o telefone de um contato.
+4. Remover um contato.
+5. Exibir todos os contatos.
+
+**Conceitos:** `Dictionary`, chave/valor, inclusão, alteração, pesquisa e remoção.
+
+---
+
+## 🟢 Exercício 04 — Fila de Atendimento
+
+Crie um sistema simples de atendimento utilizando:
+
+```csharp
+Queue<string>
+```
+
+Adicione inicialmente os seguintes clientes:
+
+- João
+- Maria
+- Carlos
+- Ana
+- Pedro
+
+O programa deve:
+
+1. Exibir a fila.
+2. Atender o primeiro cliente.
+3. Informar quem foi atendido.
+4. Exibir a fila restante.
+5. Permitir adicionar um novo cliente.
+
+**Conceito principal:** FIFO — First-In, First-Out.
+
+---
+
+## 🟢 Exercício 05 — Histórico do Navegador
+
+Crie um programa que simule o histórico de navegação de um navegador utilizando:
+
+```csharp
+Stack<string>
+```
+
+Adicione inicialmente:
+
+- google.com
+- youtube.com
+- github.com
+- microsoft.com
+
+O programa deve permitir:
+
+1. Exibir a página atual.
+2. Voltar para a página anterior.
+3. Adicionar uma nova página.
+4. Exibir o histórico.
+
+**Conceito principal:** LIFO — Last-In, First-Out.
+
+---
+
+## 🟡 Exercício 06 — Produtos Acima do Preço
+
+Crie uma classe `Produto` com:
+
+- `Nome`
+- `Preco`
+- `Categoria`
+
+Cadastre pelo menos 10 produtos em uma `List<Produto>`.
+
+Solicite ao usuário um preço mínimo.
+
+Utilizando LINQ e `Where`, exiba somente os produtos cujo preço seja maior que o valor informado.
+
+Exemplo:
+
+```
+Informe o preço mínimo: 500
+
+Produtos encontrados:
+
+Notebook - R$ 3500,00
+Monitor - R$ 900,00
+Celular - R$ 1200,00
+```
+
+**Conceitos:** `Where` e expressão lambda.
+
+---
+
+## 🟡 Exercício 07 — Ordenação de Alunos
+
+Crie uma classe `Aluno` com:
+
+- `Nome`
+- `Idade`
+- `Nota`
+
+Cadastre pelo menos 8 alunos.
+
+Utilizando LINQ, apresente:
+
+1. Alunos ordenados pelo nome.
+2. Alunos ordenados pela idade.
+3. Alunos ordenados pela nota.
+4. Alunos ordenados da maior nota para a menor.
+
+**Conceitos:** `OrderBy`, `OrderByDescending` e lambda.
+
+---
+
+## 🟡 Exercício 08 — Seleção de Produtos
+
+Utilize a classe `Produto`:
+
+- `Nome`
+- `Preco`
+- `Categoria`
+
+Cadastre pelo menos 8 produtos.
+
+Utilizando `Select`, apresente somente:
+
+- Nome
+- Preço
+
+O resultado deve ser apresentado de forma semelhante a:
+
+```
+Produto: Notebook
+Preço: R$ 3500,00
+
+Produto: Mouse
+Preço: R$ 80,00
+```
+
+**Conceito:** `Select`.
+
+---
+
+## 🟡 Exercício 09 — Sistema de Notas
+
+Crie uma lista com pelo menos 10 alunos contendo:
+
+- `Nome`
+- `Nota`
+
+Utilizando LINQ:
+
+1. Mostre todos os alunos.
+2. Mostre somente os alunos aprovados, considerando nota maior ou igual a 7.
+3. Ordene os aprovados da maior nota para a menor.
+4. Mostre somente o nome dos alunos aprovados.
+
+Exemplo:
+
+```
+APROVADOS
+
+Carlos - 9,5
+Ana - 8,7
+João - 7,5
+Maria - 7,0
+```
+
+**Conceitos:** `Where`, `OrderByDescending`, `Select` e lambda.
+
+---
+
+## 🟡 Exercício 10 — Produtos por Categoria
+
+Crie uma lista contendo pelo menos 10 produtos.
+
+Cada produto deverá possuir:
+
+- `Nome`
+- `Categoria`
+- `Preco`
+
+Utilize as categorias:
+
+- Eletrônicos
+- Informática
+- Casa
+- Roupas
+
+Solicite ao usuário uma categoria.
+
+Utilizando LINQ:
+
+1. Filtre os produtos da categoria informada.
+2. Ordene os produtos pelo preço.
+3. Mostre somente nome e preço.
+
+Exemplo:
+
+```
+Categoria: Informática
+
+Mouse - R$ 80,00
+Teclado - R$ 150,00
+Monitor - R$ 900,00
+Notebook - R$ 3500,00
+```
+
+**Conceitos:** `Where`, `OrderBy` e `Select`.
+
+---
+
+## 🟡 Exercício 11 — Consulta de Funcionários
+
+Crie uma classe `Funcionario` com:
+
+- `Nome`
+- `Cargo`
+- `Salario`
+
+Cadastre pelo menos 10 funcionários em uma `List<Funcionario>`.
+
+Utilizando LINQ, o programa deverá:
+
+1. Mostrar todos os funcionários.
+2. Mostrar somente funcionários com salário superior a R$ 3.000,00.
+3. Ordenar os funcionários pelo salário, do maior para o menor.
+4. Mostrar somente o nome e o salário dos funcionários com salário superior a R$ 3.000,00.
+
+Exemplo:
+
+```
+FUNCIONÁRIOS COM SALÁRIO ACIMA DE R$ 3.000
+
+Carlos - R$ 5.500,00
+Ana - R$ 4.800,00
+João - R$ 3.500,00
+```
+
+**Conceitos:** `Where`, `OrderByDescending`, `Select` e lambda.
+
+---
+
+# 🔴 Exercício 12 — Sistema de Vendas
+
+Crie um pequeno sistema de vendas utilizando Collections e LINQ.
+
+Crie as classes:
+
+### Produto
+
+- `Id`
+- `Nome`
+- `Categoria`
+- `Preco`
+
+### Venda
+
+- `Id`
+- `ProdutoId`
+- `Quantidade`
+
+Cadastre:
+
+- Pelo menos 10 produtos.
+- Pelo menos 15 vendas.
+
+Utilize:
+
+```csharp
+List<Produto>
+List<Venda>
+```
+
+O sistema deverá gerar os seguintes relatórios.
+
+### Relatório 1 — Produtos
+
+Mostrar todos os produtos ordenados pelo preço.
+
+### Relatório 2 — Produtos acima de R$ 500
+
+Mostrar somente os produtos cujo preço seja superior a R$ 500,00.
+
+### Relatório 3 — Total de cada venda
+
+Para cada venda, mostrar:
+
+- Nome do produto.
+- Quantidade.
+- Preço unitário.
+- Valor total da venda.
+
+Exemplo:
+
+```
+Produto       Quantidade    Preço Unit.    Total
+
+Mouse         3             R$ 80,00       R$ 240,00
+Notebook      2             R$ 3500,00     R$ 7000,00
+```
+
+### Relatório 4 — Faturamento
+
+Calcular o valor total de todas as vendas.
+
+Exemplo:
+
+```
+FATURAMENTO TOTAL: R$ 25.850,00
+```
+
+### Relatório 5 — Produto mais vendido
+
+Descobrir qual produto possui a maior quantidade vendida.
+
+Exemplo:
+
+```
+PRODUTO MAIS VENDIDO
+
+Mouse
+Quantidade: 37 unidades
+```
+
+### Relatório 6 — Ranking de produtos
+
+Apresentar os produtos ordenados pela quantidade total vendida.
+
+Exemplo:
+
+```
+1º Mouse       37 unidades
+2º Teclado     29 unidades
+3º Notebook    15 unidades
+4º Monitor     12 unidades
+```
+
+### Relatório 7 — Resumo por categoria
+
+Apresentar o faturamento de cada categoria.
+
+Exemplo:
+
+```
+INFORMÁTICA
+Faturamento: R$ 18.500,00
+
+ELETRÔNICOS
+Faturamento: R$ 12.300,00
+
+CASA
+Faturamento: R$ 7.850,00
+```
+
+### Regras
+
+O exercício deve utilizar:
+
+- `List<T>`
+- Classes e objetos
+- `Where`
+- `OrderBy`
+- `OrderByDescending`
+- `Select`
+- Expressões lambda
+- LINQ para realizar as consultas
+
+Não utilizar banco de dados.
