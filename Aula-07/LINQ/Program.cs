@@ -1,6 +1,4 @@
-﻿using System.Reflection.Metadata;
-
-internal class Program
+﻿internal class Program
 {
     public class Colaborador
     {
@@ -10,6 +8,8 @@ internal class Program
     }
     private static void Main(string[] args)
     {
+        List<Colaborador> listaColab = new List<Colaborador>();
+        
         Colaborador colab1 = new Colaborador
         {
             Nome = "Ana",
@@ -42,7 +42,6 @@ internal class Program
         };
 
         // Criar um lista de colaboradores
-        List<Colaborador> listaColab = new List<Colaborador>();
         listaColab.Add(colab1);
         listaColab.Add(colab2);
         listaColab.Add(colab3);
